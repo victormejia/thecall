@@ -1,0 +1,9 @@
+<ion-view title="Bible Verses">
+  <ion-content has-header="true" class="padding">
+  <div class="button-bar padding" ng-repeat="category in verseCategories">
+      <button class="button button-outline button-positive" ng-click="openModal('{{category}}')">
+        {{category}}
+      </button>
+  </div>
+  </ion-content>
+</ion-view>

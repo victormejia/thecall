@@ -1,0 +1,164 @@
+<ion-view title="Questionnaire">
+  <ion-nav-buttons side="right">
+      <button class="button button-icon ion-more button-positive" ng-click="showActions()"></button>
+  </ion-nav-buttons>
+
+  <ion-content class="has-header">
+
+    <div class="list list-inset">
+      <div class="item item-text-wrap">
+        Hi, I'm _______, and this is _______ and _______. We're from Calvary Chapel Chino Hills and we're doing a <strong>spiritual questionnaire</strong> in your neighborhood.
+      </div>
+    </div>
+
+    <div class="list list-inset">
+      <div class="item item-text-wrap">
+      Hi, I'm _______, and this is _______ and _______. We're from Calvary Chapel Chino Hills and we're doing a <strong>spiritual questionnaire</strong> in your neighborhood.
+      </div>
+    </div>
+
+    <div class="list list-inset">
+      <div class="item item-toggle item-text-wrap">
+         {{form.helpOut.text}}
+         <label class="toggle toggle-positive">
+           <input type="checkbox" ng-model="form.helpOut.value">
+           <div class="track">
+             <div class="handle"></div>
+           </div>
+         </label>
+      </div>
+    </div>
+
+    <div class="list list-inset">
+      <div class="item item-toggle item-text-wrap">
+        <span ng-bind-html="form.spiritualInterest.text "></span>
+         <label class="toggle toggle-positive">
+           <input type="checkbox" ng-model="form.spiritualInterest.value">
+           <div class="track">
+             <div class="handle"></div>
+           </div>
+         </label>
+      </div>
+    </div>
+
+    <div class="list list-inset">
+      <div class="item item-toggle item-text-wrap">
+         {{form.supremeGod.text}}
+         <label class="toggle toggle-positive">
+           <input type="checkbox" ng-model="form.supremeGod.value">
+           <div class="track">
+             <div class="handle"></div>
+           </div>
+         </label>
+      </div>
+    </div>
+
+    <div class="list list-inset">
+      <div class="item item-toggle item-text-wrap">
+         {{form.pray.text}}
+         <label class="toggle toggle-positive">
+           <input type="checkbox" ng-model="form.pray.value">
+           <div class="track">
+             <div class="handle"></div>
+           </div>
+         </label>
+      </div>
+    </div>
+
+    <div class="list list-inset">
+      <div class="item item-toggle item-text-wrap">
+         {{form.attendChurch.text}}
+         <label class="toggle toggle-positive">
+           <input type="checkbox" ng-model="form.attendChurch.value">
+           <div class="track">
+             <div class="handle"></div>
+           </div>
+         </label>
+      </div>
+      <div class="item item-text-wrap">
+        {{form.churchName.text}}
+        <div class="list list-inset">
+          <label class="item item-input">
+            <input type="text" placeholder="Church name" ng-model="form.churchName.value">
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="list list-inset">
+      <div class="item item-toggle item-text-wrap">
+         {{form.churchEternalLife.text}}
+         <label class="toggle toggle-positive">
+           <input type="checkbox" ng-model="form.churchEternalLife.value">
+           <div class="track">
+             <div class="handle"></div>
+           </div>
+         </label>
+      </div>
+    </div>
+
+    <div class="list list-inset">
+      <div class="item item-text-wrap">
+        {{form.name.text}}
+        <div class="list list-inset">
+          <label class="item item-input">
+            <input type="text" placeholder="Name" ng-model="form.name.value">
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="list list-inset">
+      <div class="item item-toggle item-text-wrap">
+         <span ng-bind-html="form.diagnosticHeaven.text"></span>
+         <label class="toggle toggle-positive">
+           <input type="checkbox" ng-model="form.diagnosticHeaven.value">
+           <div class="track">
+             <div class="handle"></div>
+           </div>
+         </label>
+      </div>
+    </div>
+
+    <div class="list list-inset">
+      <div class="item item-text-wrap">
+        The Bible tells us it is possible to know for certain <strong>if</strong> we will spend eternity with God. In fact, it says: <strong>"These things are written...that you may know that you have eternal life."</strong> The Bible also tells us there's a specific way to get to Heaven. It says: <strong>"Narrow is the gate and difficult is the way that leads to life, and there are few who find it."</strong> (Matthew 7:14 NKJV)
+      </div>
+    </div>
+
+    <div class="list list-inset">
+      <div class="item item-toggle item-text-wrap">
+        {{form.shareEternalLife.text}}
+         <label class="toggle toggle-positive">
+           <input type="checkbox" ng-model="form.shareEternalLife.value">
+           <div class="track">
+             <div class="handle"></div>
+           </div>
+         </label>
+      </div>
+    </div>
+
+    <div class="list list-inset">
+      <div class="item item-text-wrap">
+        {{form.diagnosticBeforeGod.text}}
+        <div class="list list-inset">
+          <label class="item item-input">
+            <input type="text" placeholder="Answer" ng-model="form.diagnosticBeforeGod.value">
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="list list-inset">
+      <div class="item item-text-wrap">
+        So you would say...? (repeat answer)
+      </div>
+    </div>
+
+    <div class="list list-inset">
+      <div class="item item-text-wrap">
+        <strong>We have really GOOD NEWS for you: Heaven is a Free Gift!</strong>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
