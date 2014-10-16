@@ -4,13 +4,13 @@
 
 $light:                           #fff !default;
 $stable:                          #f8f8f8 !default;
-$positive:                        #2E8BB7 !default;
+$positive:                        #4A596C !default;
 $calm:                            #43cee6 !default;
 $balanced:                        #66cc33 !default;
 $energized:                       #f0b840 !default;
 $assertive:                       #ef4e3a !default;
 $royal:                           #8a6de9 !default;
-$dark:                            #111111 !default;
+$dark:                            #252525 !default;
 
 
 // Base
@@ -284,7 +284,7 @@ $tabs-striped-border-width: 2px;
 // Items
 // -------------------------------
 
-$item-font-size:                  16px !default;
+$item-font-size:                  17px !default;
 $item-border-width:               1px !default;
 $item-padding:                    16px !default;
 
@@ -364,7 +364,7 @@ $item-dark-active-border:         $button-dark-active-border !default;
 
 $item-default-bg:                 $item-light-bg !default;
 $item-default-border:             $item-light-border !default;
-$item-default-text:               $item-light-text !default;
+$item-default-text:               #21272d !default;
 $item-default-active-bg:          #D9D9D9 !default;
 $item-default-active-border:      $item-light-active-border !default;
 

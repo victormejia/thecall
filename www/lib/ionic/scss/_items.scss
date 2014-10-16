@@ -16,6 +16,12 @@
   border-width: $item-border-width;
   border-style: solid;
   font-size: $item-font-size;
+  
+  h1 {
+    margin: 0 0 4px 0;
+    font-size: 17px;
+    font-weight: 500;
+  }
 
   h2 {
     margin: 0 0 4px 0;
@@ -35,7 +41,7 @@
   }
   p {
     color: #666;
-    font-size: 14px;
+    font-size: 15px;
   }
 
   h1:last-child,
@@ -573,7 +579,7 @@ button.item.item-button-right {
   min-height: 30px;
   background-color: $item-divider-bg;
   color: $item-divider-color;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 

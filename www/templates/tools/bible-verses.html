@@ -1,7 +1,7 @@
 <ion-modal-view class="bible-cards-pane">
   <ion-header-bar class="bar bar-header bar-positive">
+    <button class="button button-clear button-primary" ng-click="closeModal()"><i class="ion-close-round recite-close-btn"></i></button>
     <h1 class="title">{{currentGospelPoint}}</h1>
-    <button class="button button-clear" ng-click="closeModal()">Done</button>
   </ion-header-bar>
   <swipe-cards>
     <swipe-card ng-repeat="card in cards" on-destroy="cardDestroyed($index)" on-card-swipe="cardSwiped($index)">

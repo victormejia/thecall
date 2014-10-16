@@ -29,6 +29,7 @@
 
 .swipe-card .content {
   height: 180px;
+  font-size: 17px;
 }
 .swipe-card .button-bar .button {
   text-align:right;
@@ -78,4 +79,29 @@
 }
 .swipe-card.pop-in {
   -webkit-animation: bounceIn 0.4s ease-out;
+}
+
+
+.recite-close-btn {
+  font-size: 22px;
+}
+
+.recite-btn {
+  padding-bottom: 10px;
+}
+
+.recite-example {
+  text-align: justify;
+  line-height: 22px;
+}
+
+.recite-example .title {
+  text-align: center;
+  margin-bottom: -10px;
+}
+.recite-example .list {
+  margin-bottom: 0px;
+}
+.recite-example .item {
+  border: none;
 }

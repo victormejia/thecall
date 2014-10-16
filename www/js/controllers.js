@@ -99,7 +99,7 @@ angular.module('starter.controllers', [])
   $scope.$watch('currentCard', function (newVal, oldVal) {
     if (newVal !== oldVal) {
       if (newVal === ($scope.cardLimit -1) ) {
-        $scope.nextText = 'Ok';
+        $scope.nextText = 'OK';
       }
       else {
         $scope.nextText = 'Next';
